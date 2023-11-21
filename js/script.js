@@ -36,6 +36,8 @@ mybutton.addEventListener("click", function(){
     // ARROTONDO IL PREZZO FINALE DEL BIGLIETTO
     ticketPrice = ticketPrice.toFixed(2);
 
+    document.getElementById("ticketprice").innerHTML = ticketPrice;
+
     console.log(eta);
     console.log(km);
     console.log(ticketPrice);

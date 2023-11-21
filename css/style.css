@@ -8,7 +8,32 @@
     box-sizing: border-box;
  }
 
+ *{
+    font-family: 'Roboto', sans-serif;
+ }
+
  /***************
    SITE SECTION
  ***************/
+
+/* BODY */
+
+body{
+    height: 100vh;
+}
+
+.spectrum-background{
+    background:
+        linear-gradient(rgb(41, 20, 20), transparent),
+        linear-gradient(to top left, rgb(0, 153, 255), transparent),
+        linear-gradient(to top right, blue, transparent);
+    background-blend-mode: screen;
+}
+
+/* MAIN */
+
+.bg-tr{
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 18px;
+}
 

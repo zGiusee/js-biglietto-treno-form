@@ -40,6 +40,16 @@ body{
 /* BUTTON */
 
 .my-btn{
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 10px 15px;
+    border-radius: 18px;
+    scale: 0.9;
+    transition: 1s;
+}
 
+.my-btn:hover{
+    scale: 1.1;
 }
 

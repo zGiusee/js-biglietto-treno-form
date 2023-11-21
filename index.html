@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body class="spectrum-background d-flex justify-content-center align-items-center">
+    <!-- FORM CONTAINER -->
     <div class="container-md bg-tr mx-3">
         <div class="row flex-wrap py-5">
             <div class="col-12 text-center">
@@ -57,31 +58,26 @@
 
             <!-- BUTTON -->
             <div class="col-12 justify-content-center d-flex">
-                <button type="button" class="my-btn mt-4" id="mybtn">Calcola il tuo biglietto</button>
+                <button type="button" class="my-btn mt-5" id="mybtn">Calcola il tuo biglietto</button>
             </div>
 
-            <div>
-                <h1 id="ticketprice"></h1>
+            <!-- MESSAGIO FINALE -->
+
+            <div class="col-12">
+                <div class="text-center">
+                    <p class="text-white mt-3" id="compliments">
+                    </p>
+
+                    <p class="text-white mt-1 px-3" id="message">
+                    </p>
+
+                    <h2 id="ticketprice" class="text-white"></h2>
+                </div>
             </div>
             
         </div>
     </div>
+    <!-- END OF FORM CONTAINER -->
     <script type="text/javascript" src="./js/script.js"></script>
 </body>
 </html>
-
-
-<!-- <div>
-    <label for="km">Km</label>
-    <input type="number" id="km" placeholder="Inserisci il numero di km che vorresti percorrere">
-</div>
-<div>
-    <label for="eta">Età</label>
-    <input type="number" id="eta" placeholder="Inserisci la tua età">
-</div>
-<div>
-    <button class="btn btn-primary" id="mybtn">Calcola il tuo biglietto</button>
-</div>
-<div>
-    <h1 id="ticketprice"></h1>
-</div> -->

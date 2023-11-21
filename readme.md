@@ -14,8 +14,11 @@ Solo una volta che il milestone 1 sarà completo e funzionante allora realizzere
 Il recap dei dati e l'output del prezzo finale, andranno quindi stampati in pagina (il prezzo dovrà essere formattato con massimo due decimali, per indicare i centesimi sul prezzo). Questo richiederà un minimo di ricerca.Sono richiesti almeno 5 push.
 
 
-1 - Creo l'input che permetta all'utente di inserire il numero di km.
-2 - Creo l'input che permetta all'utente di inserire la sua età.
-3 - Eseguo il calcolo della tariffa per km 
-4 - Applico gli sconti in base all'età
-5 - Completo il calcolo e ottengo il risultato finale
+1 - Creo l'input che permetta all'utente di inserire il numero di km;
+2 - Creo l'input che permetta all'utente di inserire la sua età;
+3 - Eseguo il calcolo della tariffa per km;
+4 - Applico gli sconti in base all'età;
+4.1 - Se l'utente è minorenne applico uno sconto del 20%;
+4.2 - Altrimenti, se l'utente ha più di 65 anni applico uno sconto del 40%;
+4.3 - se invece il passeggero ha un età compresa tra i 18 anni e 65 anni non applico nessuno sconto;
+5 - Completo il calcolo e ottengo il risultato finale;

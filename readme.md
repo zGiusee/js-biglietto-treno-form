@@ -18,9 +18,9 @@ Il recap dei dati e l'output del prezzo finale, andranno quindi stampati in pagi
 2 - Creo l'input che permetta all'utente di inserire la sua età;
 3 - Eseguo il calcolo della tariffa per km;
 4 - Applico gli sconti in base all'età;
- 4.1 a - ? Se l'utente è minorenne applico uno sconto del 20%;
- 4.1 b - Completo il calcolo e ottengo il risultato finale;
-  5a - : ? se l'utente ha più di 65 anni applico uno sconto del 40%;
-  5b - Completo il calcolo e ottengo il risultato finale;
-6a - : se invece il passeggero ha un età compresa tra i 18 anni e 65 anni non applico nessuno sconto;
-6b - Completo il calcolo e ottengo il risultato finale;
+  5 a - ? L'utente è minorenne applico uno sconto del 20%;
+  5 b - Completo il calcolo e ottengo il risultato finale;
+     6 a - : ? se l'utente ha più di 65 anni applico uno sconto del 40%;
+     6 b - Completo il calcolo e ottengo il risultato finale;
+7a - : se invece il passeggero ha un età compresa tra i 18 anni e 65 anni non applico nessuno sconto;
+7b - Completo il calcolo e ottengo il risultato finale;

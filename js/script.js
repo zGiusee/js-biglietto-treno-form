@@ -4,9 +4,15 @@ const mybutton = document.getElementById("mybtn");
 
 mybutton.addEventListener("click", function(){
     
+    // RECUPERO I VALORI
+
+    // KM
     let km = document.getElementById("km").value;
+    // ETA
     let eta = document.getElementById("eta").value;
+    // NOME
     let nome = document.getElementById("nome").value;
+    // COGNOME
     let cognome = document.getElementById("cognome").value;
 
     // CALCOLO TARIFFA KILOMETRI

@@ -40,11 +40,7 @@ mybutton.addEventListener("click", function(){
 
     document.getElementById("ticketprice").innerHTML = ticketPrice + "€";
     document.getElementById("message").innerHTML = message;
-    document.getElementById("compliments").innerHTML = `Complimenti ${nome} ${cognome}`;
+    document.getElementById("congratulations").innerHTML = `Complimenti ${nome} ${cognome}`;
 
-    console.log(eta);
-    console.log(km);
-    console.log(message);
-    console.log(ticketPrice);
 });
 
